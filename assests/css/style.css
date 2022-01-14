@@ -490,7 +490,7 @@ article .news_resume{
     flex-direction: column;
     justify-content: space-around;
 }
-@media (max-width:375px){
+@media (max-width:425px){
     .widget_body{
         justify-content:center;
     }
