@@ -27,6 +27,16 @@ header{
     align-items: center;
     justify-content: center;
 }
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin: 40px 20px 40px 0;
+}
+.mm_line{
+    height: 3px;
+    background-color: #0079c7;
+}
 nav ul,
 nav li{
     list-style: none;
@@ -326,6 +336,25 @@ span a{
 .up a{
     text-decoration: none;
     color: #FFF;
+}
+.up{
+    width:0;
+    height:0;
+    border-radius: 7px;
+    border: 20px solid;
+    border-color: transparent transparent #0079c7 transparent;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 0 50px 50px 0;
+    animation: is-bouncing 1s ease infinite;
+    cursor: pointer;
+    display: none;
+}
+@keyframes is-bouncing {
+    to {
+        transform: translateY(-30px);
+    }
 }
 
 /* RESPONSIVIDADE 768 */
