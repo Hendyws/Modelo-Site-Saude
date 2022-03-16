@@ -1,3 +1,3 @@
 Site Model de Clínica
 
-https://hendyws.github.io/modulogit/
+https://hendyws.github.io/Modelo-Site-Saude/
